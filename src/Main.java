@@ -8,9 +8,10 @@ public class Main {
 
     }
 
-    static String createStr() {
+    static int calc(int a, int b) {
 
-        return "Hello number = " + 0;
-
-    }
-}
+        if (a > b) {
+            return a * b;
+        } else if (b > 0) {
+            return a / b;
+        }
